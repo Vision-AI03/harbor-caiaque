@@ -3,9 +3,24 @@ import { Card } from "@/components/ui/card";
 const Gallery = () => {
   const galleryImages = [
     {
-      src: '/lovable-uploads/5a07b1e6-9040-476d-97cf-0080f5250090.png',
-      alt: 'Veleiro Harbor Experience',
-      caption: 'Passeios de veleiro também disponíveis'
+      src: '/lovable-uploads/8ee6c8e6-313a-4fec-9fb6-fa73f0284961.png',
+      alt: 'Vista aérea dos passeios de caiaque',
+      caption: 'Grupos navegando pelas águas cristalinas'
+    },
+    {
+      src: '/lovable-uploads/acb55242-495a-49da-91db-2485d856f8a3.png',
+      alt: 'Casal em caiaque transparente',
+      caption: 'Caiaque de fundo transparente para melhor experiência'
+    },
+    {
+      src: '/lovable-uploads/bb8c8a55-27e0-4309-bd9b-73140b051d29.png',
+      alt: 'Explorando formações rochosas',
+      caption: 'Aventura entre as formações naturais únicas'
+    },
+    {
+      src: '/lovable-uploads/57304dde-e658-457d-8929-1ae2674fad2f.png',
+      alt: 'Passeio em águas cristalinas',
+      caption: 'Momentos únicos em piscinas naturais'
     },
     {
       src: '/lovable-uploads/eb2959e2-c281-4423-b58d-42c994bb7683.png',
@@ -16,11 +31,6 @@ const Gallery = () => {
       src: '/lovable-uploads/830e3252-ca66-4abf-8837-79de5c3aceac.png',
       alt: 'Depoimento cliente',
       caption: 'Trabalho e atendimento de excelência'
-    },
-    {
-      src: '/lovable-uploads/5bd05b8b-7657-4d81-b2bc-b06d9262d295.png',
-      alt: 'Cliente feliz',
-      caption: 'Experiência incrível garantida'
     }
   ];
 
