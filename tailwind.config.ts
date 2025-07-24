@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				ocean: 'hsl(var(--ocean-blue))',
+				turquoise: 'hsl(var(--turquoise))',
+				coral: 'hsl(var(--coral))',
+				sand: 'hsl(var(--sand))',
+				'deep-blue': 'hsl(var(--deep-blue))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +89,38 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-20px)'
+					}
+				},
+				'wave': {
+					'0%, 100%': {
+						transform: 'rotate(-3deg)'
+					},
+					'50%': {
+						transform: 'rotate(3deg)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'wave': 'wave 2s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'gradient-ocean': 'var(--gradient-ocean)',
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-beach': 'var(--gradient-beach)'
+			},
+			boxShadow: {
+				'ocean': 'var(--shadow-ocean)',
+				'float': 'var(--shadow-float)'
 			}
 		}
 	},
