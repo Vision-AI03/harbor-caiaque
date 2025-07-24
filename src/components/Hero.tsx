@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Calendar, MapPin, Users } from "lucide-react";
-import heroImage from '@/assets/hero-kayaking.jpg';
+import heroImage from '/lovable-uploads/ce0d685c-c768-4964-b914-893eca398b36.png';
 
 const Hero = () => {
   const handleBookClick = () => {

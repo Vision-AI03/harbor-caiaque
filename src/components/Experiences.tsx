@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, Users, Star, MapPin } from "lucide-react";
-import kayakExperience1 from '@/assets/kayak-experience-1.jpg';
-import kayakExperience2 from '@/assets/kayak-experience-2.jpg';
+import kayakExperience1 from '/lovable-uploads/046b34ab-a616-43b8-a9e3-6ccdbd43c2a8.png';
+import kayakExperience2 from '/lovable-uploads/66f5ace9-ded1-4e7c-852f-c597a4e85239.png';
 
 const experiences = [
   {

@@ -1,5 +1,5 @@
 import { Heart, MapPin, Phone, Instagram, MessageCircle } from "lucide-react";
-import harborLogo from '@/assets/harbor-logo.png';
+import harborLogo from '/lovable-uploads/28d188e0-bffc-42a2-9457-3a3742de26e1.png';
 
 const Footer = () => {
   return (

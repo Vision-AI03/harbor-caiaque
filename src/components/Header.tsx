@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-import harborLogo from '@/assets/harbor-logo.png';
+import harborLogo from '/lovable-uploads/28d188e0-bffc-42a2-9457-3a3742de26e1.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
