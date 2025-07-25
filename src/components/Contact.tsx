@@ -36,7 +36,7 @@ const Contact = () => {
                   <MapPin className="text-ocean" size={24} />
                   <div>
                     <p className="font-semibold">Localização</p>
-                    <p className="text-muted-foreground">Praia Paradisíaca, Nordeste - Brasil</p>
+                    <p className="text-muted-foreground">Praia de Muro alto, Pernambuco - Brasil</p>
                   </div>
                 </div>
                 
@@ -83,12 +83,12 @@ const Contact = () => {
               </div>
               
               <div className="mt-8 p-4 bg-secondary/20 rounded-lg">
-                <h4 className="font-semibold text-deep-blue mb-2">Dicas Importantes:</h4>
+                <h4 className="font-semibold text-deep-blue mb-2">Informações Importantes:</h4>
                 <ul className="text-sm text-muted-foreground space-y-1">
-                  <li>• Recomendamos reservar com antecedência</li>
-                  <li>• Todos os equipamentos de segurança inclusos</li>
-                  <li>• Não é necessário experiência prévia</li>
-                  <li>• Aceito para todas as idades</li>
+                  <li>• É necessário reservar com antecedência</li>
+                  <li>• Todos os equipamentos e guia especializado incluso</li>
+                  <li>• Os pacotes que incluem crianças, são para crianças de até 8 anos (desde que esteja dentro do limite de peso do caiaque)</li>
+                  <li>• O passeio guiado inclui um guia que acompanha todo o passeio com um caiaque ao lado, levando em pontos específicos e auxilia na fotos e vídeos</li>
                 </ul>
               </div>
             </CardContent>
