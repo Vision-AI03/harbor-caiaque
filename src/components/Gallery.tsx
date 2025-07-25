@@ -21,16 +21,6 @@ const Gallery = () => {
       src: '/lovable-uploads/57304dde-e658-457d-8929-1ae2674fad2f.png',
       alt: 'Passeio em águas cristalinas',
       caption: 'Momentos únicos em piscinas naturais'
-    },
-    {
-      src: '/lovable-uploads/eb2959e2-c281-4423-b58d-42c994bb7683.png',
-      alt: 'Feedback cliente satisfeito',
-      caption: 'Nossos clientes adoram a experiência'
-    },
-    {
-      src: '/lovable-uploads/830e3252-ca66-4abf-8837-79de5c3aceac.png',
-      alt: 'Depoimento cliente',
-      caption: 'Trabalho e atendimento de excelência'
     }
   ];
 
@@ -45,7 +35,6 @@ const Gallery = () => {
             Confira alguns dos momentos especiais vividos por nossos clientes nas águas cristalinas
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {galleryImages.map((image, index) => (
             <Card key={index} className="overflow-hidden group hover:shadow-ocean transition-all duration-300">
@@ -64,7 +53,6 @@ const Gallery = () => {
             </Card>
           ))}
         </div>
-
         <div className="text-center mt-12">
           <p className="text-lg text-muted-foreground mb-4">
             Quer ver mais? Siga-nos no Instagram!
